@@ -1,12 +1,12 @@
 # DataAnalysis-Power-BI
 
-# 🌍 Sales Analysis Dashboard using Power BI
+# Sales Analysis Dashboard using Power BI
 
 This project showcases an end-to-end data analysis using Power BI — from data cleaning to visualization — designed to help stakeholders like CEOs and CMOs gain actionable insights from global sales data.
 
 ---
 
-## 📁 Dataset Overview
+## Dataset Overview
 
 The dataset includes sales transaction details with fields such as:
 - `Invoice Date`
@@ -18,18 +18,17 @@ The dataset includes sales transaction details with fields such as:
 
 ---
 
-## 🧹 Data Cleaning Performed
+## Data Cleaning Performed
 
-- Removed records with `Quantity < 1` to eliminate invalid entries.
+- Removed records with to eliminate invalid entries.
 - Excluded rows with missing or blank `Customer ID`.
 - Created a new calculated column:  
-  📌 **Revenue = Quantity × Unit Price**
 - Filtered dataset to include only data for the year **2011**.
 - Created a formatted column `YearMonth` (e.g., `2011-03`) for monthly granularity.
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 ### 1. **Line Chart - Monthly Revenue Trend (2011)**
 - **X-axis:** YearMonth
@@ -51,7 +50,7 @@ The dataset includes sales transaction details with fields such as:
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
 - Identified the **top-performing customers** contributing most revenue.
 - Visualized the **monthly revenue trend** to spot seasonal patterns.
@@ -60,7 +59,7 @@ The dataset includes sales transaction details with fields such as:
 
 ---
 
-## 📌 Tools Used
+## Tools Used
 
 - Power BI Desktop
 - DAX (for calculated columns and measures)
@@ -68,7 +67,7 @@ The dataset includes sales transaction details with fields such as:
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 This analysis helps executives:
 - Monitor monthly sales performance.
